@@ -1,4 +1,5 @@
 import { Inter as FontSans } from "@next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -87,6 +88,7 @@ export default function RootLayout({
 
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

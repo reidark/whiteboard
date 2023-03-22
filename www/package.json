@@ -13,9 +13,9 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "engines" : {
-    "npm" : "8.19.3",
-    "node" : "18.13.0"
+  "engines": {
+    "npm": "8.19.3",
+    "node": "18.13.0"
   },
   "packageManager": "pnpm@7.26.1",
   "dependencies": {
@@ -24,6 +24,7 @@
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "@vercel/analytics": "^0.1.11",
     "clsx": "^1.2.1",
     "contentlayer": "^0.3.0",
     "eslint": "8.36.0",
