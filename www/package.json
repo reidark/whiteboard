@@ -13,6 +13,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines" : {
+    "npm" : "8.19.3",
+    "node" : "18.13.0"
+  },
   "packageManager": "pnpm@7.26.1",
   "dependencies": {
     "@next/font": "13.2.4",
