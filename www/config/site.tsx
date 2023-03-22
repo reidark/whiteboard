@@ -3,7 +3,7 @@ export const siteConfig = {
 };
 
 export const siteLinks = {
-  url: "whiteboard-xi-five.vercel.app",
+  url: "https://whiteboard-xi-five.vercel.app",
   github: "https://github.com/reidark",
   repository: "https://github.com/reidark/whiteboard",
   repositoryContent: "https://github.com/reidark/whiteboard/www/content",
