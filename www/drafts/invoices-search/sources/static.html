@@ -1,0 +1,325 @@
+<div className="flex w-full max-w-3xl items-center justify-center text-white">
+  <div className="w-full">
+    <div className="relative z-10 mb-4 flex items-center gap-3 rounded-lg border border-solid border-[#35333c] bg-[#28272f] py-3 px-6">
+      <label htmlFor="search" aria-label="Search">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-5 w-5 text-[#94959d]"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-label="Search icon"
+        >
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </label>
+
+      <input
+        className="peer w-full bg-transparent outline-none"
+        id="search"
+        type="text"
+        placeholder="Search"
+        required
+      />
+
+      <div className="duration-50 ml-auto flex gap-2 opacity-0 transition-opacity peer-valid:opacity-100">
+        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] text-[#94959d]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-4 w-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-label="Command key"
+          >
+            <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+          </svg>
+        </div>
+
+        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] text-[#94959d]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-4 w-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-label="Enter key"
+          >
+            <polyline points="9 10 4 15 9 20"></polyline>
+            <path d="M20 4v7a4 4 0 0 1-4 4H4"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div
+        className="duration-50 absolute top-0 left-0 -z-10 h-full w-full rounded-lg border border-indigo-600 opacity-0 shadow-[0_0_10px_0] shadow-indigo-600 transition-opacity peer-focus:opacity-100"
+        aria-hidden="true"
+      ></div>
+    </div>
+
+    <div className="rounded-lg border border-solid border-[#35333c] bg-[#28272f] py-4">
+      <div className="mb-4 px-3">
+        <div className="mb-3 px-3 font-semibold text-[#94959d]">
+          Recently viewed
+        </div>
+
+        <ul>
+          <li className="mb-2">
+            <a
+              className="flex rounded-lg p-3 outline-none transition-colors duration-100 hover:bg-[#363441] focus-visible:bg-[#363441]"
+              href="#"
+            >
+              <div className="mr-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mt-[0.125rem] h-5 w-5 text-[#94959d]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-label="Document icon"
+                >
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <line x1="10" y1="9" x2="8" y2="9"></line>
+                </svg>
+              </div>
+
+              <div>
+                <div className="mb-2 flex items-center font-semibold">
+                  <span className="mr-2 text-[#cdccd4]">Invoice #2039</span>
+
+                  <span className="rounded-md bg-yellow-200 py-1 px-[0.675rem] text-sm leading-none text-[#28272f]">
+                    Sent
+                  </span>
+                </div>
+
+                <div className="text-sm text-[#94959d]">
+                  Invoices / Website redesign
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li className="mb-2">
+            <a
+              className="flex rounded-lg p-3 outline-none transition-colors duration-100 hover:bg-[#363441] focus-visible:bg-[#363441]"
+              href="#"
+            >
+              <div className="mr-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mt-[0.125rem] h-5 w-5 text-[#94959d]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-label="Document icon"
+                >
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <line x1="10" y1="9" x2="8" y2="9"></line>
+                </svg>
+              </div>
+
+              <div>
+                <div className="mb-2 flex items-center font-semibold">
+                  <span className="mr-2 text-[#cdccd4]">Invoice #2041</span>
+
+                  <span className="rounded-md bg-[#d8d7e8] py-1 px-[0.675rem] text-sm leading-none text-[#28272f]">
+                    Draft
+                  </span>
+                </div>
+
+                <div className="text-sm text-[#94959d]">
+                  Invoices / Icon design
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-t border-solid border-[#35333c] px-3 pt-4">
+        <div className="mb-6 px-3 font-semibold text-[#94959d]">
+          Common actions
+        </div>
+
+        <ul>
+          <li className="mb-4">
+            <a
+              className="group flex items-center gap-3 rounded-lg px-3 outline-none transition-colors duration-100"
+              href="#"
+            >
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 text-[#94959d]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-label="Create document icon"
+                >
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="12" y1="18" x2="12" y2="12"></line>
+                  <line x1="9" y1="15" x2="15" y2="15"></line>
+                </svg>
+              </div>
+
+              <div className="font-semibold text-[#cdccd4] transition-colors duration-100 group-hover:text-white group-focus-visible:text-white">
+                Create invoice
+              </div>
+
+              <div className="ml-auto flex gap-2">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] text-[#94959d] transition-colors duration-100 group-hover:bg-[#363441] group-hover:text-[#cdccd4] group-focus-visible:bg-[#363441] group-focus-visible:text-[#cdccd4]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-label="Command key"
+                  >
+                    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+                  </svg>
+                </div>
+
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] font-semibold text-[#94959d] transition-colors duration-100 group-hover:bg-[#363441] group-hover:text-[#cdccd4] group-focus-visible:bg-[#363441] group-focus-visible:text-[#cdccd4]">
+                  N
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li className="mb-4">
+            <a
+              className="group flex items-center gap-3 rounded-lg px-3 outline-none transition-colors duration-100"
+              href="#"
+            >
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 text-[#94959d]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-label="Zap icon"
+                >
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+
+              <div className="font-semibold text-[#cdccd4] transition-colors duration-100 group-hover:text-white group-focus-visible:text-white">
+                Schedule invoice
+              </div>
+
+              <div className="ml-auto flex gap-2">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] text-[#94959d] transition-colors duration-100 group-hover:bg-[#363441] group-hover:text-[#cdccd4] group-focus-visible:bg-[#363441] group-focus-visible:text-[#cdccd4]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-label="Command key"
+                  >
+                    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+                  </svg>
+                </div>
+
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] font-semibold text-[#94959d] transition-colors duration-100 group-hover:bg-[#363441] group-hover:text-[#cdccd4] group-focus-visible:bg-[#363441] group-focus-visible:text-[#cdccd4]">
+                  S
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a
+              className="group flex items-center gap-3 rounded-lg px-3 outline-none transition-colors duration-100"
+              href="#"
+            >
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 text-[#94959d]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-label="Delete document icon"
+                >
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="9" y1="15" x2="15" y2="15"></line>
+                </svg>
+              </div>
+
+              <div className="font-semibold text-[#cdccd4] transition-colors duration-100 group-hover:text-white group-focus-visible:text-white">
+                Delete invoice
+              </div>
+
+              <div className="ml-auto flex gap-2">
+                <div
+                  className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] text-[#94959d] transition-colors duration-100 group-hover:bg-[#363441] group-hover:text-[#cdccd4] group-focus-visible:bg-[#363441] group-focus-visible:text-[#cdccd4]"
+                  title="Command key"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-label="Command icon"
+                  >
+                    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path>
+                  </svg>
+                </div>
+
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#35333c] font-semibold text-[#94959d] transition-colors duration-100 group-hover:bg-[#363441] group-hover:text-[#cdccd4] group-focus-visible:bg-[#363441] group-focus-visible:text-[#cdccd4]">
+                  D
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
